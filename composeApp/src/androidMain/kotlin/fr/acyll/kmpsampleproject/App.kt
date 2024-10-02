@@ -9,19 +9,21 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import org.jetbrains.compose.ui.tooling.preview.Preview
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.compose.runtime.getValue
+import androidx.lifecycle.viewmodel.compose.viewModel
 
 @Composable
-@Preview
-fun App() {
+fun App(mainViewModel: MainViewModel = viewModel()) {
+
     MaterialTheme {
-        val greeting = remember { Greeting().greet() }
+        val greetings by mainViewModel.greetingList.collectAsStateWithLifecycle()
 
         Column(
             modifier = Modifier.padding(all = 20.dp),
             verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
-            greeting.forEach { greeting ->
+            greetings.forEach { greeting ->
                 Text(greeting)
                 HorizontalDivider()
             }

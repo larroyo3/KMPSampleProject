@@ -37,16 +37,13 @@ kotlin {
             implementation(libs.ktor.client.core)
             implementation(libs.ktor.client.content.negotiation)
             implementation(libs.ktor.serialization.kotlinx.json)
-
-            // VIEW MODEL
-            //implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
-            //implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.2")
-            //implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
         }
         androidMain.dependencies {
+            // KTOR
             implementation(libs.ktor.client.android)
         }
         iosMain.dependencies {
+            // KTOR
             implementation(libs.ktor.client.darwin)
         }
     }

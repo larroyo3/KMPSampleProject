@@ -23,6 +23,11 @@ kotlin {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
             implementation (libs.androidx.material3)
+
+            // VIEW MODEL
+            implementation(libs.androidx.lifecycle.viewmodel.ktx)
+            implementation(libs.lifecycle.runtime.compose)
+            implementation(libs.androidx.lifecycle.viewmodel.compose)
         }
         commonMain.dependencies {
             implementation(compose.runtime)
