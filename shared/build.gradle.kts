@@ -6,6 +6,7 @@ plugins {
     alias(libs.plugins.androidLibrary)
 
     kotlin("plugin.serialization") version "2.0.0"
+    id("co.touchlab.skie") version "0.9.0"
 }
 
 kotlin {
