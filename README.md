@@ -19,7 +19,19 @@ If you find my work helpful, please consider giving it a ⭐ ❤️.
 
 Hi, I'm **Lucas Arroyo**, a mobile developer specializing in **Android** and **cross-platform development** using **KMP**. If you have any feedback or suggestions to improve this project, don't hesitate to contact me!
 
+</br>
 
+## 📚 Table of Contents
+1. [🛠 What is Kotlin Multiplatform (KMP) and Jetpack Compose?](#-what-is-kotlin-multiplatform-kmp-and-jetpack-compose)
+2. [🏗️ How to Build the App](#-how-to-build-the-app)
+   - [Android](#android)
+   - [iOS](#ios)
+3. [🌍 Global Best Practices Implemented](#-global-best-practices-implemented)
+4. [🧩 Module-Specific Best Practices](#-module-specific-best-practices)
+   - [Home Module](#-home-module)
+   - [Profile Module](#-profile-module)
+   - [Qbox Module](#-qbox-module)
+5. [🤝 Contributing](#-contributing)
 
 </br>
 
