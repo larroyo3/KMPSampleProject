@@ -19,14 +19,6 @@ Hi, I'm **Lucas Arroyo**, a mobile developer specializing in **Android** and **c
 ## 🛠 What is Kotlin Multiplatform (KMP) and Jetpack Compose?
 **Kotlin Multiplatform (KMP)** allows code sharing across platforms like Android and iOS, enabling the development of native apps with shared business logic. **Jetpack Compose** is Google's modern toolkit for building Android UIs, while **SwiftUI** plays a similar role for iOS. Together, they allow for streamlined, performant cross-platform development.
 
-This is a Kotlin Multiplatform project targeting Android and iOS.
-
-- `/composeApp` contains code shared across Compose Multiplatform applications, with `commonMain` for shared code and platform-specific folders (e.g., `iosMain`).
-- `/iosApp` holds the entry point for the iOS app, with any required SwiftUI code.
-- `/shared` is for code shared between all platforms.
-
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html).
-
 ## 🏗️ How to Build the App
 
 #### Android
@@ -44,6 +36,15 @@ Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-mu
 </br>
 
 ## 🌍 Global Best Practices Implemented
+
+This is a Kotlin Multiplatform project targeting Android and iOS.
+
+- `/composeApp` contains code shared across Compose Multiplatform applications, with `commonMain` for shared code and platform-specific folders (e.g., `iosMain`).
+- `/iosApp` holds the entry point for the iOS app, with any required SwiftUI code.
+- `/shared` is for code shared between all platforms.
+
+Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html).
+
 Here are the global coding practices applied across the entire project:
 
 <!--
