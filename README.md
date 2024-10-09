@@ -15,9 +15,15 @@ If you find my work helpful, please consider giving it a ⭐ ❤️.
 
 ## 👤 About Me
 
-<p><a target="_blank" href="https://www.linkedin.com/in/lucas-arroyo" style="display: inline-block;"><img src="https://img.shields.io/badge/linkedin-logo?style=for-the-badge&logo=linkedin&logoColor=white&color=%230a77b6" alt="linkedin" height="30" /></a> <a target="_blank" href="https://www.instagram.com/acyll_studios" style="display: inline-block;"><img src="https://img.shields.io/badge/instagram-logo?style=for-the-badge&logo=instagram&logoColor=white&color=%23F35369" alt="instagram" height="30"/></a> <a target="_blank" href="https://twitter.com/acyll_studios" style="display: inline-block;"><img src="https://img.shields.io/badge/twitter-x?style=for-the-badge&logo=x&logoColor=white&color=%230f1419" alt="twitter" height="30" /></a><a target="_blank" href="https://buymeacoffee.com/acyll" style="display: inline-block;"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="BuyMeACoffee" height="30" /></a></p>
+<img align="right" height="175" width="325" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm9uMXp0NTE2bjRzbGtiY2VodDd2eXpnNTRocGttajVlNmprcnV4cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iIqmM5tTjmpOB9mpbn/giphy.gif"  />
+
+###
 
 Hi, I'm **Lucas Arroyo**, a mobile developer specializing in **Android** and **cross-platform development** using **KMP**. If you have any feedback or suggestions to improve this project, don't hesitate to contact me!
+
+</br>
+
+<p><a target="_blank" href="https://www.linkedin.com/in/lucas-arroyo" style="display: inline-block;"><img src="https://img.shields.io/badge/linkedin-logo?style=for-the-badge&logo=linkedin&logoColor=white&color=%230a77b6" alt="linkedin" height="36" /></a> <a target="_blank" href="https://www.instagram.com/acyll_studios" style="display: inline-block;"><img src="https://img.shields.io/badge/instagram-logo?style=for-the-badge&logo=instagram&logoColor=white&color=%23F35369" alt="instagram" height="36"/></a> <a target="_blank" href="https://twitter.com/acyll_studios" style="display: inline-block;"><img src="https://img.shields.io/badge/twitter-x?style=for-the-badge&logo=x&logoColor=white&color=%230f1419" alt="twitter" height="36" /></a><a target="_blank" href="https://buymeacoffee.com/acyll" style="display: inline-block;"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="BuyMeACoffee" height="36" /></a></p>
 
 </br>
 
@@ -47,6 +53,10 @@ With KMP, you can:
 - **Code Reusability**: Write common code once, and share it across Android, iOS, desktop, and more.
 - **Flexibility**: KMP lets you use platform-specific code when necessary, ensuring you can still leverage native features.
 - **Consistency**: By using KMP, you maintain consistent business logic and architecture across all platforms, which leads to fewer inconsistencies between apps.
+
+<div align="center">
+    <img src="https://assets.axopen.com/assets/uploads/sdk_313e52f7d9d3b3e3e48471ef06e8e3aa_78a4f042e4.svg" alt="KMP Diagram" width="400"/>
+</div>
 
 Learn more about [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html)
 
