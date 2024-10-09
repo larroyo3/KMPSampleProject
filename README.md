@@ -23,7 +23,54 @@ Hi, I'm **Lucas Arroyo**, a mobile developer specializing in **Android** and **c
 </br>
 
 ## 🛠 What is Kotlin Multiplatform (KMP) and Jetpack Compose?
-**Kotlin Multiplatform (KMP)** allows code sharing across platforms like Android and iOS, enabling the development of native apps with shared business logic. **Jetpack Compose** is Google's modern toolkit for building Android UIs, while **SwiftUI** plays a similar role for iOS. Together, they allow for streamlined, performant cross-platform development.
+
+### Kotlin Multiplatform (KMP)
+**Kotlin Multiplatform (KMP)** is an innovative technology that allows developers to share common code across multiple platforms, such as Android, iOS, desktop, and web, while still enabling platform-specific code when needed. This flexibility makes it easier to write maintainable, reusable code, reducing duplication and simplifying the development process for cross-platform applications.
+
+With KMP, you can:
+- **Write once, run anywhere**: Share business logic, data models, and network code across platforms.
+- **Use platform-specific code** when needed: Access native APIs (like Android's Room database or iOS's CoreData) through platform-specific modules.
+- **Streamline development**: By having a single codebase for your business logic, you reduce the overhead of maintaining multiple codebases and simplify bug fixes and feature updates.
+
+#### Why KMP?
+- **Code Reusability**: Write common code once, and share it across Android, iOS, desktop, and more.
+- **Flexibility**: KMP lets you use platform-specific code when necessary, ensuring you can still leverage native features.
+- **Consistency**: By using KMP, you maintain consistent business logic and architecture across all platforms, which leads to fewer inconsistencies between apps.
+
+Learn more about [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html)
+
+### Jetpack Compose
+**Jetpack Compose** is Google's modern UI toolkit for building native Android UIs with a declarative, reactive programming model. It simplifies UI development by eliminating the need to use imperative UI frameworks like XML-based layouts. With Jetpack Compose, you describe your UI as functions (composables) that automatically recompose when data changes.
+
+Learn more about [Jetpack Compose](https://developer.android.com/compose)
+
+#### Key Features of Jetpack Compose:
+- **Declarative UI**: Instead of defining how the UI changes over time with imperative logic, you declare what the UI should look like at any given state.
+- **Composability**: Build UIs by combining small, reusable UI elements (composables) that can easily be assembled and reassembled.
+- **Seamless Integration**: Jetpack Compose is fully interoperable with existing Android views and code, meaning you can gradually adopt it in existing projects.
+- **Kotlin-first**: Jetpack Compose is designed to work with Kotlin, offering concise syntax, coroutines for asynchronous tasks, and interoperability with other Jetpack libraries.
+
+### SwiftUI (for iOS)
+Just like Jetpack Compose for Android, **SwiftUI** is Apple's declarative UI framework for building UIs in iOS. With SwiftUI, you can build UIs in a similar fashion, using reactive programming concepts to automatically update the UI when data changes.
+
+Learn more about [SwiftUI](https://developer.apple.com/xcode/swiftui/)
+
+#### Why Compose and SwiftUI Together?
+Using **Compose** for Android and **SwiftUI** for iOS in a **Kotlin Multiplatform** project lets you:
+- **Leverage native performance**: Each platform still uses its native UI framework, ensuring optimal performance.
+- **Consistent UI patterns**: Both Compose and SwiftUI share similar declarative patterns, making it easier for developers to switch between platforms.
+- **Reduce learning curve**: Developers familiar with declarative programming can more easily transition between Android and iOS development.
+
+</br>
+
+## 📚 Tech Stack 
+- [Kotlin Multiplatform](https://kotlinlang.org/lp/multiplatform/)
+- [Jetpack Compose](https://developer.android.com/compose)
+- [SwiftUI](https://developer.apple.com/xcode/swiftui/)
+- [Kotlin Coroutines](https://github.com/Kotlin/kotlinx.coroutines)
+- [Ktor](https://ktor.io/)
+
+</br>
 
 ## 🏗️ How to Build the App
 
@@ -43,13 +90,14 @@ Hi, I'm **Lucas Arroyo**, a mobile developer specializing in **Android** and **c
 
 ## 🌍 Global Best Practices Implemented
 
-This is a Kotlin Multiplatform project targeting Android and iOS.
+### Project Structure
 
-- `/composeApp` contains code shared across Compose Multiplatform applications, with `commonMain` for shared code and platform-specific folders (e.g., `iosMain`).
-- `/iosApp` holds the entry point for the iOS app, with any required SwiftUI code.
-- `/shared` is for code shared between all platforms.
+- **`/composeApp`**: Contains shared code for your Compose Multiplatform applications, with `commonMain` holding code that can run on both Android and iOS. Platform-specific code resides in corresponding folders like `iosMain` for iOS-specific implementations.
+  
+- **`/iosApp`**: Contains the iOS-specific entry point and any SwiftUI code. Even when sharing the UI with Compose Multiplatform, you'll still need to manage the native entry points for the iOS app in Xcode.
+  
+- **`/shared`**: Houses shared business logic, network, and data handling code that can be reused across all platforms. The `commonMain` folder inside `/shared` contains the core logic shared by both Android and iOS apps.
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html).
 
 Here are the global coding practices applied across the entire project:
 
