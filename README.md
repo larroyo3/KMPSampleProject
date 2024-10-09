@@ -23,15 +23,13 @@ Hi, I'm **Lucas Arroyo**, a mobile developer specializing in **Android** and **c
 
 ## 📚 Table of Contents
 1. [🛠 What is Kotlin Multiplatform (KMP) and Jetpack Compose?](#-what-is-kotlin-multiplatform-kmp-and-jetpack-compose)
-2. [🏗️ How to Build the App](#-how-to-build-the-app)
+2. [📚 Tech Stack ](#-tech-stack)
+3. [🏗️ How to Build the App](#-how-to-build-the-app)
    - [Android](#android)
    - [iOS](#ios)
-3. [🌍 Global Best Practices Implemented](#-global-best-practices-implemented)
-4. [🧩 Module-Specific Best Practices](#-module-specific-best-practices)
-   - [Home Module](#-home-module)
-   - [Profile Module](#-profile-module)
-   - [Qbox Module](#-qbox-module)
-5. [🤝 Contributing](#-contributing)
+4. [🌍 Global Best Practices Implemented](#-global-best-practices-implemented)
+5. [🧩 Module-Specific Best Practices](#-module-specific-best-practices)
+6. [🤝 Contributing](#-contributing)
 
 </br>
 
