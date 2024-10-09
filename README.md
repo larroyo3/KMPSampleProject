@@ -139,5 +139,3 @@ Each module in the project follows its own set of best practices. Here's a quick
 ## 🤝 Contributing
 Contributions are welcome! Feel free to fork the repository, make your improvements, and submit a pull request. Let's collaborate to make this project even better!
 
-Thank you for checking out **KMPSampleProject**! Together, we can make cross-platform development more efficient and enjoyable.
-
