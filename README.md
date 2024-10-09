@@ -76,13 +76,13 @@ Using **Compose** for Android and **SwiftUI** for iOS in a **Kotlin Multiplatfor
 ## 🏗️ How to Build the App
 
 #### Android
-1. Clone the repository: `git clone https://github.com/your-repo.git`
+1. Clone the repository: `[git clone https://github.com/your-repo.git](https://github.com/larroyo3/KMPSampleProject)`
 2. Open the project in **Android Studio**.
 3. Sync the Gradle files.
 4. Run the app on an **Android emulator** or physical device.
 
 #### iOS
-1. Clone the repository: `git clone https://github.com/your-repo.git`
+1. Clone the repository: `[git clone https://github.com/your-repo.git](https://github.com/larroyo3/KMPSampleProject)`
 2. Open the iOS project in **Xcode**.
 3. Select your target device (simulator or physical).
 4. Run the app.
