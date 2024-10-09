@@ -14,11 +14,12 @@ If you find my work helpful, please consider giving it a ⭐ ❤️.
 </br>
 
 ## 👤 About Me
+
+<p><a target="_blank" href="https://www.linkedin.com/in/lucas-arroyo" style="display: inline-block;"><img src="https://img.shields.io/badge/linkedin-logo?style=for-the-badge&logo=linkedin&logoColor=white&color=%230a77b6" alt="linkedin" height="30" /></a> <a target="_blank" href="https://www.instagram.com/acyll_studios" style="display: inline-block;"><img src="https://img.shields.io/badge/instagram-logo?style=for-the-badge&logo=instagram&logoColor=white&color=%23F35369" alt="instagram" height="30"/></a> <a target="_blank" href="https://twitter.com/acyll_studios" style="display: inline-block;"><img src="https://img.shields.io/badge/twitter-x?style=for-the-badge&logo=x&logoColor=white&color=%230f1419" alt="twitter" height="30" /></a><a target="_blank" href="https://buymeacoffee.com/acyll" style="display: inline-block;"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="BuyMeACoffee" height="30" /></a></p>
+
 Hi, I'm **Lucas Arroyo**, a mobile developer specializing in **Android** and **cross-platform development** using **KMP**. If you have any feedback or suggestions to improve this project, don't hesitate to contact me!
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com)  
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-lightgrey?style=flat&logo=github)](https://github.com)  
-[![Email](https://img.shields.io/badge/Email-Get%20in%20touch-red?style=flat&logo=gmail)](mailto:your-email@example.com)
+
 
 </br>
 
