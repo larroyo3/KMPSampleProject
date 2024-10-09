@@ -78,6 +78,7 @@ Each module in the project follows its own set of best practices. Here's a quick
 
 > **Note**: As modules are still being developed, these best practices will continue to evolve.
 
+</br>
 
 ## 🤝 Contributing
 Contributions are welcome! Feel free to fork the repository, make your improvements, and submit a pull request. Let's collaborate to make this project even better!
