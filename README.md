@@ -4,9 +4,10 @@
 ![badge-ios](http://img.shields.io/badge/platform-ios-CDCDCD.svg?style=flat)
 
 ## 📱 Project Overview
-**KMPSampleProject** is a sample mobile application built with **Kotlin Multiplatform (KMP)**, **Jetpack Compose**, and **SwiftUI**. This project demonstrates best practices for clean architecture and modular design in cross-platform mobile apps. It serves as a reference for developers aiming to create maintainable and scalable mobile projects.
 
-**KMPSampleProject** is a sample mobile application built with **Kotlin Multiplatform (KMP)**, **Jetpack Compose**, and **SwiftUI**. While the project showcases best practices for clean architecture and modular design in cross-platform mobile apps, it primarily focuses on **Jetpack Compose**, making it an ideal reference for developers working on **native Android projects** as well as those exploring **Compose Multiplatform**. Whether you're building for Android or across multiple platforms, this project serves as a guide for creating maintainable, scalable applications with modern UI frameworks.
+**KMPSampleProject** is a sample mobile application built with **Kotlin Multiplatform (KMP)**, **Jetpack Compose**, and **SwiftUI**. While the project showcases best practices for clean architecture and modular design in cross-platform mobile apps, it primarily focuses on **Jetpack Compose**, making it an ideal reference for developers working on **native Android projects** as well as those exploring **Compose Multiplatform**. 
+
+Whether you're building for Android or across multiple platforms, this project serves as a guide for creating maintainable, scalable applications with modern UI frameworks.
 
 If you find my work helpful, please consider giving it a ⭐ ❤️.
 
